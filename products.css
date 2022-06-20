@@ -1,0 +1,35 @@
+.item-img{
+    width: 285px;
+    height:530px;
+    object-fit: cover;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.item{
+    padding-right: 30px;
+    padding-bottom: 70px;
+}
+.item:nth-child(3) {
+    padding-right: 0;
+}
+.item:nth-child(6) {
+    padding-right: 0;
+}
+.item:nth-child(9) {
+    padding-right: 0;
+}
+.item-text{
+    font-size: 18px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-weight: 600;
+    cursor: pointer;
+}
+.item-text:hover{
+    color: #17a2b8;
+    transition: ease 0.7s;
+}
